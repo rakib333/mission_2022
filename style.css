@@ -7,11 +7,12 @@ a {
     text-decoration: none;
 }
 body {
-    margin-left: 150px;
+    font-family: 'Poppins', sans-serif;
 }
 .first-section {
     display: flex;
     margin-bottom: 60px;
+    margin-left: 160px;
 }
 .section-details {
     width: 50%;
@@ -51,6 +52,9 @@ body {
 /*==============
  2nd part css
  ================ */
+ .mission-main {
+     margin-left: 160px;
+ }
  .mission-main h1 {
     text-align: center;
     font-size: 48px;
@@ -105,13 +109,15 @@ body {
      background-size: 25%;
      background-position: left;
      margin-bottom: 100px;
+     margin-left: 80px;
  }
  .idea-img img {
-     width: 75%;
+     width: 80%;
      padding-left: 100px;
  }
  .idea-details {
-     margin-top: 60px;
+     margin-top: 40px;
+     margin-left: 50px;
  }
  .idea-details h2 {
      font-size: 36px;
@@ -119,9 +125,9 @@ body {
      color: #333333;
  }
  .idea-details p {
-     width: 70%;
-     margin-top: 20px;
-     margin-bottom: 40px;
+     width: 80%;
+     margin-top: 10px;
+     margin-bottom: 30px;
      line-height: 23px;
      font-size: 18px;
  }
@@ -141,6 +147,7 @@ body {
      background-size: 25%;
      padding-bottom: 150px;
      margin-right: 30px;
+     margin-left: 160px;
  }
  .community-detials {
      margin-top: 50px;
@@ -153,8 +160,8 @@ body {
      font-size: 20px;
      line-height: 30px;
      margin-right: 4%;
-     margin-top: 30px;
-     margin-bottom: 40px;
+     margin-top: 20px;
+     margin-bottom: 30px;
  }
  .community-detials a {
      background-color: #FF5959;
@@ -163,5 +170,57 @@ body {
      border-radius: 10px;
  }
  .comunity-img img {
-     width: 70%;
+     width: 80%;
+ }
+
+ /* ==================
+    contact form css 
+ ======================*/
+ .contact-form {
+     text-align: center;
+     background-color: rgb(153, 164, 172);
+     border-radius: 10px;
+     margin-right: 100px;
+     margin-left: 160px;
+     padding-bottom: 50px;
+
+ }
+ .name-field {
+     height: 40px;
+     width: 500px;
+     border-radius: 10px;
+     padding-left: 30px;
+     border: 2px solid rgb(25, 116, 66);
+     margin-bottom: 20px;
+ }
+ .age-area {
+     margin-bottom: 20px;
+ }
+ .btn {
+     margin-top: 30px;
+     padding: 20px 40px;
+     background-color: orange;
+     color: white;
+     border-radius: 10px;
+     border: none;
+     margin-right: 20px;
+ }
+
+ /* footer part css  */
+ .footer {
+     background-color: #0B0D17;
+     text-align: center;
+     padding: 45px 0px;
+ }
+ .footer h2 {
+     font-size: 36px;
+     color: white;
+     margin-bottom: 25px;
+ }
+ .footer span {
+     color: orange;
+ }
+ .footer p {
+     color: white;
+     font-size: 18px;
  }
