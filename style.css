@@ -22,6 +22,8 @@ body {
 }
 .section-details  h1 {
     font-size: 60px;
+    border-left: 4px solid #FF5959;
+    ;
 }
 .section-details  p {
     font-size: 18px;
@@ -49,3 +51,45 @@ body {
 /*==============
  2nd part css
  ================ */
+ .mission-main h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+ }
+ .mission-main .diff-color {
+    color: orange;
+ }
+ .mission-items {
+    display: flex;
+
+ }
+ .mission {
+    width: 25%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 10px rgb(231, 221, 221);
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 50px;
+    margin-bottom: 80px;
+ }
+ .mission-bg {
+    background-color: #4F9DA6;
+ }
+ .vission-bg {
+     background-color: #FF5959;
+ }
+ .goals-bg {
+     margin-right: 0;
+     background-color: #FFF4D6;
+ }
+ .mission-img img {
+     height: 145px;
+     width: 145px;
+ }
+ .mission-detils h1 {
+     text-align: start;
+     margin-bottom: 30px;
+ }
+ .mission-detils p {
+     text-align: justify;
+ }
