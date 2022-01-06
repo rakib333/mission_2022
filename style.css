@@ -204,6 +204,7 @@ body {
      border-radius: 10px;
      border: none;
      margin-right: 20px;
+     cursor: pointer;
  }
 
  /* footer part css  */
